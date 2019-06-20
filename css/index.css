@@ -133,7 +133,7 @@ html {
   font-size: 62.5%;
 }
 body {
-  font-family: sans-serif;
+  font-family: 'roboto', sans-serif;
   color: #FF6C11;
   width: 100%;
 }
@@ -142,7 +142,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: sans-serif;
+  font-family: 'roboto', sans-serif;
 }
 h1 {
   font-size: 4rem;
@@ -187,16 +187,32 @@ header #top-nav {
   display: flex;
 }
 header #top-nav a {
-  color: #261447;
-  font-family: 'anton';
   width: 25%;
   text-align: center;
   font-size: 1.6rem;
+  font-weight: bold;
   padding: 1px;
   margin: 5px;
 }
 header #top-nav a:hover {
-  color: #FF6C11;
+  color: #0D0221;
+}
+footer {
+  display: flex;
+  background: #540D6E;
+  padding: 25px;
+}
+footer nav {
+  display: flex;
+  justify-content: space-around;
+  width: 75%;
+  margin: 0 auto;
+}
+footer nav a {
+  font-size: 1.6rem;
+}
+footer nav a:hover {
+  color: #261447;
 }
 body {
   background-image: url('../images/synth-wave.jpg');
@@ -212,4 +228,43 @@ body {
   background: #261447;
   padding: 15px;
   margin: 15px auto;
+}
+#Supplemental-Container {
+  display: flex;
+  flex-direction: column;
+}
+#Supplemental-Container .supplemental-block {
+  display: flex;
+  flex-direction: column;
+  background: #261447;
+  padding: 15px;
+  margin: 15px auto;
+  width: 100%;
+  border-radius: 25px;
+}
+#Supplemental-Container .supplemental-block button {
+  margin: 0 auto;
+  background: #FF6C11;
+  color: #261447;
+  padding: 10px;
+  border: none;
+  font-weight: bold;
+}
+#Supplemental-Container .supplemental-block h3 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+#Endorsements-Container {
+  display: flex;
+}
+#Endorsements-Container .inner-text-content {
+  background: #261447;
+  margin: 15px auto;
+  width: 100%;
+}
+#Endorsements-Container .inner-text-content p,
+#Endorsements-Container .inner-text-content h1 {
+  padding: 15px;
+  margin: 15px auto;
+  width: 100%;
 }
