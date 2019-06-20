@@ -136,7 +136,6 @@ body {
   font-family: sans-serif;
   color: #FF6C11;
   width: 100%;
-  margin: 0 auto;
 }
 h1,
 h2,
@@ -203,4 +202,14 @@ body {
   background-image: url('../images/synth-wave.jpg');
   background-size: cover;
   background-color: #0D0221;
+}
+.home {
+  margin: 0 auto;
+  width: 75%;
+}
+#Intro-Container {
+  display: flex;
+  background: #261447;
+  padding: 15px;
+  margin: 15px auto;
 }
