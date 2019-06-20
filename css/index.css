@@ -134,9 +134,8 @@ html {
 }
 body {
   font-family: sans-serif;
-  color: #FF4365;
-  background: #261447;
-  max-width: 1200px;
+  color: #FF6C11;
+  width: 100%;
   margin: 0 auto;
 }
 h1,
@@ -171,7 +170,7 @@ img {
 }
 a {
   text-decoration: none;
-  color: #FF4365;
+  color: #FF6C11;
 }
 header {
   width: 100%;
@@ -189,14 +188,19 @@ header #top-nav {
   display: flex;
 }
 header #top-nav a {
+  color: #261447;
+  font-family: 'anton';
   width: 25%;
   text-align: center;
   font-size: 1.6rem;
   padding: 1px;
   margin: 5px;
-  border: 2px solid #FF6C11;
 }
 header #top-nav a:hover {
-  background: #FF6C11;
-  font-weight: bold;
+  color: #FF6C11;
+}
+body {
+  background-image: url('../images/synth-wave.jpg');
+  background-size: cover;
+  background-color: #0D0221;
 }
