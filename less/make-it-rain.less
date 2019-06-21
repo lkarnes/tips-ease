@@ -1,0 +1,51 @@
+@import 'variables.less';
+@import 'make-it-rain-global.less';
+@import 'make-it-rain-navigation.less';
+
+body{
+  background-color: @section-bg;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#intro-section-container{
+  width: 100%;
+  height: 3000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/robo-waiter2.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  .inner-text-content{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    height: 3000px;
+    width: 100%;
+
+
+    .inner-text-content-header {
+      text-align: center;
+      font-size: 11rem;
+      color: @light-red;
+      width: 75%;
+      margin: 200px 200px 50px 400px;
+    }
+
+    button {
+      font-size: 10rem;
+      color: @sun-rays;
+      background-color: black;
+      margin: 50px 100px 200px 400px;
+
+    }
+  }
+}
+
+
