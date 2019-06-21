@@ -70,6 +70,24 @@ header #top-nav a {
 header #top-nav a:hover {
   color: #0D0221;
 }
+footer {
+  display: flex;
+  background: #540D6E;
+  padding: 25px;
+  width: 100%;
+}
+footer nav {
+  display: flex;
+  justify-content: space-around;
+  width: 75%;
+  margin: 0 auto;
+}
+footer nav a {
+  font-size: 7rem;
+}
+footer nav a:hover {
+  color: #261447;
+}
 body {
   background-color: #0D0221;
   display: flex;
@@ -105,9 +123,14 @@ body {
 }
 #intro-section-container .inner-text-content button {
   font-size: 10rem;
-  color: #FF6C11;
-  background-color: black;
+  background: #FF6C11;
+  color: #261447;
   margin: 50px 100px 200px 400px;
+  border: none;
+  font-weight: bold;
+}
+#intro-section-container .inner-text-content button:hover {
+  background: #540D6E;
 }
 .server-life-info {
   width: 100%;

@@ -202,6 +202,7 @@ footer {
   display: flex;
   background: #540D6E;
   padding: 25px;
+  width: 100%;
 }
 footer nav {
   display: flex;
@@ -210,7 +211,7 @@ footer nav {
   margin: 0 auto;
 }
 footer nav a {
-  font-size: 1.6rem;
+  font-size: 7rem;
 }
 footer nav a:hover {
   color: #261447;

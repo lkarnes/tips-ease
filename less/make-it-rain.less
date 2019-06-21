@@ -1,6 +1,7 @@
 @import 'variables.less';
 @import 'global.less';
 @import 'navigation.less';
+@import 'footer.less';
 
 body {
   background-color: @section-bg;
@@ -40,13 +41,19 @@ body {
 
     button {
       font-size: 10rem;
-      color: @sun-rays;
-      background-color: black;
+      background: @button-bg;
+      color: @button-font;
       margin: 50px 100px 200px 400px;
+      border: none;
+      font-weight: bold;
 
+      &:hover {
+        background: @footer-bg;
+      }
     }
   }
 }
+
 
 .server-life-info {
   width: 100%;
