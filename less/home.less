@@ -1,27 +1,56 @@
 body{
     background-image: url('../images/synth-wave.jpg');
-    background-size: cover;
+    width: 100%;
     background-color: @section-bg; 
 }
 .home{
   margin:0 auto;
   width: 75%;
 }
-#Intro-Container {
+.intro-container {
     display: flex;
+    justify-content: space-around;
     background: @main-bg;
-    padding: 75px 0 15px;
     margin: 15px auto;
-    
+    align-content: center;
+    .intro-item{
+        justify-self: center;
+
+        width: 45%;
+    }
+
 }
-#Supplemental-Container{
+.block{
     display: flex;
     flex-direction: column;
-    
-    .supplemental-block{
+    background: @main-bg; 
+    padding: 15px;
+    margin: 15px auto;
+    width: 100%;
+    border-radius: 25px;
+    button{
+        margin: 0 auto;
+        background: @button-bg;
+        color: @button-font;
+        padding: 10px;
+        border: none;
+        font-weight: bold;
+        &:hover{
+            background: @footer-bg;
+        }
+    }
+    h2,h3{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    .block{
         display: flex;
         flex-direction: column;
-        background: @main-bg;
+        background: @main-bg; 
         padding: 15px;
         margin: 15px auto;
         width: 100%;
@@ -33,16 +62,19 @@ body{
             padding: 10px;
             border: none;
             font-weight: bold;
+            &:hover{
+                background: @footer-bg;
+            }
         }
-        h3{
+        h2,h3{
             text-align: center;
             padding-bottom: 20px;
         }
     }
 }
-#Endorsements-Container{
+.endorsements-container{
     display: flex;
-    .inner-text-content{
+    .inner-text{
         background: @main-bg;
         margin: 15px auto;
         width: 100%;

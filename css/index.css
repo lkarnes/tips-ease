@@ -175,7 +175,6 @@ header {
   position: fixed;
   width: 100%;
   padding: 15px;
-  margin-top: -15px;
   display: flex;
   align-content: center;
   justify-content: space-between;
@@ -187,6 +186,7 @@ header h3 {
 header #top-nav {
   width: 50%;
   display: flex;
+  align-items: center;
 }
 header #top-nav a {
   width: 25%;
@@ -218,24 +218,25 @@ footer nav a:hover {
 }
 body {
   background-image: url('../images/synth-wave.jpg');
-  background-size: cover;
+  width: 100%;
   background-color: #0D0221;
 }
 .home {
   margin: 0 auto;
   width: 75%;
 }
-#Intro-Container {
+.intro-container {
   display: flex;
+  justify-content: space-around;
   background: #261447;
-  padding: 75px 0 15px;
   margin: 15px auto;
+  align-content: center;
 }
-#Supplemental-Container {
-  display: flex;
-  flex-direction: column;
+.intro-container .intro-item {
+  justify-self: center;
+  width: 45%;
 }
-#Supplemental-Container .supplemental-block {
+.block {
   display: flex;
   flex-direction: column;
   background: #261447;
@@ -244,7 +245,7 @@ body {
   width: 100%;
   border-radius: 25px;
 }
-#Supplemental-Container .supplemental-block button {
+.block button {
   margin: 0 auto;
   background: #FF6C11;
   color: #261447;
@@ -252,20 +253,101 @@ body {
   border: none;
   font-weight: bold;
 }
-#Supplemental-Container .supplemental-block h3 {
+.block button:hover {
+  background: #540D6E;
+}
+.block h2,
+.block h3 {
   text-align: center;
   padding-bottom: 20px;
 }
-#Endorsements-Container {
+.content {
+  display: flex;
+  flex-direction: column;
+}
+.content .block {
+  display: flex;
+  flex-direction: column;
+  background: #261447;
+  padding: 15px;
+  margin: 15px auto;
+  width: 100%;
+  border-radius: 25px;
+}
+.content .block button {
+  margin: 0 auto;
+  background: #FF6C11;
+  color: #261447;
+  padding: 10px;
+  border: none;
+  font-weight: bold;
+}
+.content .block button:hover {
+  background: #540D6E;
+}
+.content .block h2,
+.content .block h3 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.endorsements-container {
   display: flex;
 }
-#Endorsements-Container .inner-text-content {
+.endorsements-container .inner-text {
   background: #261447;
   margin: 15px auto;
   width: 100%;
 }
-#Endorsements-Container .inner-text-content p,
-#Endorsements-Container .inner-text-content h1 {
+.endorsements-container .inner-text p,
+.endorsements-container .inner-text h1 {
+  padding: 15px;
+  margin: 15px auto;
+  width: 100%;
+}
+.affiliate {
+  margin: 0 auto;
+  width: 75%;
+}
+.intro-container {
+  display: flex;
+  padding: 75px 0 15px;
+  margin: 15px auto;
+}
+.supplemental-container {
+  display: flex;
+  flex-direction: column;
+}
+.supplemental-container .supplemental-block {
+  display: flex;
+  flex-direction: column;
+  background: #261447;
+  padding: 15px;
+  margin: 15px auto;
+  width: 100%;
+  border-radius: 25px;
+}
+.supplemental-container .supplemental-block button {
+  margin: 0 auto;
+  background: #FF6C11;
+  color: #261447;
+  padding: 10px;
+  border: none;
+  font-weight: bold;
+}
+.supplemental-container .supplemental-block h3 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.endorsements-container {
+  display: flex;
+}
+.endorsements-container .inner-text-content {
+  background: #261447;
+  margin: 15px auto;
+  width: 100%;
+}
+.endorsements-container .inner-text-content p,
+.endorsements-container .inner-text-content h1 {
   padding: 15px;
   margin: 15px auto;
   width: 100%;
