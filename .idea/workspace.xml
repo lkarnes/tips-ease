@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="52308a22-0273-42a4-ab5a-5315974f7b6f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/javascript/make-it-rain.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/make-it-rain.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/make-it-rain.html" beforeDir="false" afterPath="$PROJECT_DIR$/make-it-rain.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/javascript/make-it-rain.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="760">
-              <caret line="38" column="3" lean-forward="true" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
+            <state relative-caret-position="520">
+              <caret line="26" column="3" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -238,12 +237,12 @@
       <option name="presentableId" value="Default" />
       <updated>1560993972284</updated>
       <workItem from="1560993973533" duration="5987000" />
-      <workItem from="1561092941560" duration="12881000" />
+      <workItem from="1561092941560" duration="13346000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18868000" />
+    <option name="totallyTimeSpent" value="19333000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1638" height="941" extended-state="0" />
@@ -397,8 +396,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/javascript/make-it-rain.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="38" column="3" lean-forward="true" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
+        <state relative-caret-position="520">
+          <caret line="26" column="3" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
         </state>
       </provider>
     </entry>
