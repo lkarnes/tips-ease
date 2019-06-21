@@ -109,4 +109,31 @@ body {
   background-color: black;
   margin: 50px 100px 200px 400px;
 }
+.server-life-info {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.server-life-info .inner-text-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  width: 100%;
+}
+.server-life-info .inner-text-content .inner-text-content-header {
+  text-align: center;
+  color: #FF4365;
+  width: 75%;
+  font-size: 10rem;
+}
+.server-life-info .inner-text-content p {
+  text-align: center;
+  color: #FF6C11;
+  width: 75%;
+  font-size: 9rem;
+}
 /*# sourceMappingURL=make-it-rain.css.map */
