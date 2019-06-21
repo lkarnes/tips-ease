@@ -172,7 +172,6 @@ a {
   color: #FF6C11;
 }
 header {
-  position: fixed;
   width: 100%;
   padding: 15px;
   display: flex;
@@ -181,7 +180,7 @@ header {
   background: #540D6E;
 }
 header h3 {
-  font-size: 3.2rem;
+  font-size: 9rem;
 }
 header #top-nav {
   width: 50%;
@@ -191,7 +190,7 @@ header #top-nav {
 header #top-nav a {
   width: 25%;
   text-align: center;
-  font-size: 1.6rem;
+  font-size: 7rem;
   font-weight: bold;
   padding: 1px;
   margin: 5px;
