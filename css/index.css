@@ -164,7 +164,7 @@ p {
   padding-bottom: 10px;
 }
 img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 a {
@@ -228,6 +228,8 @@ footer nav a:hover {
 }
 body {
   background-image: url('../images/synth-wave.jpg');
+  background-position: center;
+  background-size: 50%;
   width: 100%;
   background-color: #0D0221;
 }

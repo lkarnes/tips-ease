@@ -28,6 +28,4 @@ class Button {
         }
     }
 }
-
-
 let button = document.querySelectorAll('.block button').forEach(button=> new Button(button));
