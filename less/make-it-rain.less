@@ -1,0 +1,92 @@
+@import 'variables.less';
+@import 'global.less';
+@import 'navigation.less';
+@import 'footer.less';
+
+body {
+  background-color: @section-bg;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#intro-section-container {
+  width: 100%;
+  height: 3000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/robo-waiter2.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  .inner-text-content {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    height: 3000px;
+    width: 100%;
+
+
+    .inner-text-content-header {
+      text-align: center;
+      font-size: 11rem;
+      color: @light-red;
+      width: 75%;
+      margin: 200px 200px 50px 400px;
+    }
+
+    button {
+      font-size: 10rem;
+      background: @button-bg;
+      color: @button-font;
+      margin: 50px 100px 200px 400px;
+      border: none;
+      font-weight: bold;
+
+      &:hover {
+        background: @footer-bg;
+      }
+    }
+  }
+}
+
+
+.server-life-info {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .inner-text-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 100%;
+
+
+    .inner-text-content-header {
+      text-align: center;
+      color: @light-red;
+      width: 75%;
+      font-size: 10rem;
+    }
+
+    p {
+      text-align: center;
+      color: @sun-rays;
+      width: 75%;
+      font-size: 9rem;
+    }
+
+  }
+}
+
+
+

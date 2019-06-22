@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: 'roboto', sans-serif;
+  color: #FF6C11;
+  width: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'roboto', sans-serif;
+}
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3.2rem;
+  padding-bottom: 10px;
+}
+h3 {
+  font-size: 2.5rem;
+}
+h4 {
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+p {
+  line-height: 1.5;
+  font-size: 1.6rem;
+  padding-bottom: 10px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+a {
+  text-decoration: none;
+  color: #FF6C11;
+}
+header {
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  background: #540D6E;
+}
+header h3 {
+  font-size: 9rem;
+}
+header #top-nav {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+header #top-nav a {
+  width: 25%;
+  text-align: center;
+  font-size: 7rem;
+  font-weight: bold;
+  padding: 1px;
+  margin: 5px;
+}
+header #top-nav a:hover {
+  color: #0D0221;
+}
+footer {
+  display: flex;
+  background: #540D6E;
+  padding: 25px;
+  width: 100%;
+}
+footer nav {
+  display: flex;
+  justify-content: space-around;
+  width: 75%;
+  margin: 0 auto;
+}
+footer nav a {
+  font-size: 7rem;
+}
+footer nav a:hover {
+  color: #261447;
+}
+body {
+  background-color: #0D0221;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#intro-section-container {
+  width: 100%;
+  height: 3000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/robo-waiter2.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#intro-section-container .inner-text-content {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  height: 3000px;
+  width: 100%;
+}
+#intro-section-container .inner-text-content .inner-text-content-header {
+  text-align: center;
+  font-size: 11rem;
+  color: #FF4365;
+  width: 75%;
+  margin: 200px 200px 50px 400px;
+}
+#intro-section-container .inner-text-content button {
+  font-size: 10rem;
+  background: #FF6C11;
+  color: #261447;
+  margin: 50px 100px 200px 400px;
+  border: none;
+  font-weight: bold;
+}
+#intro-section-container .inner-text-content button:hover {
+  background: #540D6E;
+}
+.server-life-info {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.server-life-info .inner-text-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  width: 100%;
+}
+.server-life-info .inner-text-content .inner-text-content-header {
+  text-align: center;
+  color: #FF4365;
+  width: 75%;
+  font-size: 10rem;
+}
+.server-life-info .inner-text-content p {
+  text-align: center;
+  color: #FF6C11;
+  width: 75%;
+  font-size: 9rem;
+}
+/*# sourceMappingURL=make-it-rain.css.map */
