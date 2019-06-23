@@ -218,8 +218,6 @@ footer nav a:hover {
 }
 body {
   background-image: url('../images/synth-wave.jpg');
-  background-position: center;
-  background-size: 50%;
   width: 100%;
   background-color: #0D0221;
 }
@@ -229,21 +227,14 @@ body {
 }
 .intro-container {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-around;
   background: #261447;
   margin: 15px auto;
   align-content: center;
 }
 .intro-container .intro-item {
+  justify-self: center;
   width: 45%;
-}
-.intro-container .banner {
-  width: 95%;
-  padding: 20px 0;
-}
-.hidden {
-  display: none;
 }
 .block {
   display: flex;
@@ -252,6 +243,7 @@ body {
   padding: 15px;
   margin: 15px auto;
   width: 100%;
+  border-radius: 25px;
 }
 .block button {
   margin: 0 auto;
@@ -280,6 +272,7 @@ body {
   padding: 15px;
   margin: 15px auto;
   width: 100%;
+  border-radius: 25px;
 }
 .content .block button {
   margin: 0 auto;
