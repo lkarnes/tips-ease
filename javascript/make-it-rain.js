@@ -107,32 +107,3 @@ document.querySelector("#intro-section-container button").addEventListener("clic
 
 });
 
-
-/*
-{
-    to,
-        from,
-        value: "1000000000000000000"
-},
-*/
-
-/*         web3.eth.sendTransaction({
-                    from: web3.eth.accounts[0],
-                    to: toAddress,
-                    value: web3.toWei(ethAmount, 'ether')
-                }, function (error, result) {
-                    if (error) {
-                        document.getElementById('output').innerHTML = "Something went wrong!"
-                    } else {
-                        document.getElementById('output').innerHTML = "Track the payment: <a href='https://etherscan.io/tx/" + result + "'>https://etherscan.io/tx/" + result + "'"
-                    }
-                });*/
-
-//sanity test to make sure MetaMask is loaded and being detected by web page. Uncomment and load page if in doubt.
-// window.addEventListener('load', function () {
-//     if (typeof web3 !== 'undefined') {
-//         console.log('Web3 Detected! ' + web3.currentProvider.constructor.name)
-//     } else {
-//         console.og('No Web3 Detected');
-//     }
-// })
