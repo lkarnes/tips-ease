@@ -1,4 +1,12 @@
 //assume that the app provider and its merchants hard-code server names and Ethereum adresses through some onboarding workflow process, storing the information in ethAddressesByServerName
+
+// console.log(Web3.givenProvider); THIS WORKS!!
+
+// in node.js use: const Web3 = require('web3');
+
+// use the given Provider, e.g in the browser with Metamask, or instantiate a new websocket provider
+
+
 let ethAddressesByServerName = [
     {name: "Batman", ethAddress: "0x584eb7AD314F96B98F51e613543cd212Ce9d49aC"},
     {name: "Spiderman", ethAddress: "0x61a6d1a584B173DE29b9cEF17dfC1Dd87648E2F5"},
@@ -16,7 +24,7 @@ class ServerLifeElement {
     }
 
     addressFinder(arr) {
-        for(let i = 0; i < arr.length; i++) {
+        for (let i = 0; i < arr.length; i++) {
             if (arr[i].name === this.serverName) {
                 return arr[i].ethAddress;
             }
@@ -43,54 +51,82 @@ serverLives.forEach(serverLife => {
 });
 
 
-
-
 document.querySelector("#intro-section-container button").addEventListener("click", () => {
-    web3 = new Web3(web3.currentProvider);
 
+    const web3 = new Web3(Web3.givenProvider);
 
-    let serverNameSelected = prompt("Please enter your server's name. You can pick Spiderman, Batman or Iron Man. Please use exact text.");
-    let ethAmountSelected = web3.utils.eth.toWei(prompt("How much ETH would you like to send to your server? Please enter only an integer indicating the amount of ETH"), 'ether');
-    console.log(ethAmountSelected);
-    let serverEthereumAddress = "";
+    //some tests:
+    // console.log('Web3 Detected! ' + web3.givenProvider.constructor.name); /*THIS WORKS!!!, showing that web3 is being properly assigned as Metamask node*/
 
     // web3.eth.net.getNetworkType()
-    //     .then(console.log);
+    //     .then(console.log);   /*THIS WORKS!!! and logs ropsten, showing that we are talking to Metamask's node on ropsten, not mainnet*/
 
-    serverLivesArray.forEach(serverObject => {
-        if (serverObject.serverName === serverNameSelected) {
-             // console.log(serverObject);-->this WORKS, serverObject refers to the right thing
-            serverEthereumAddress = serverObject.serverEthereumAddress;
-        }
-    });
+    // console.log(web3.eth.getAccounts());
 
-    const sendEth = (sendFromAddress, sendToAddress, ethAmount) => {
-        web3.eth.sendTransaction(
-            {
-                from: sendFromAddress,
-                to: sendToAddress,
-                value: ethAmount
-            }
-        )
-    };
-
-
-
-    if (typeof web3 !== 'undefined') {
-        console.log('Web3 Detected! ' + web3.currentProvider.constructor.name);
-
-        serverObjectSelected.makeVisible();
-
-        sendEth(web3.eth.accounts[0], serverEthereumAddress, ethAmountSelected);
-
-
-
-    } else {
-        return window.alert('Something went wrong. You might have entered your server\'s name wrong. Or you might not have installed MetaMask from https://metamask.io/');
+    if (typeof web3 === 'undefined') {
+        window.alert('Something went wrong. Please install MetaMask from https://metamask.io/ and set it to the Ropsten test network');
     }
+
+    let serverNameSelected = prompt("Please enter your server's name. You can pick Spiderman, Batman or Iron Man. Please use exact text.");
+
+    let ethAmountSelected = web3.utils.toWei(prompt("How much ETH would you like to send to your server? Please enter a number indicating the amount of ETH (can less than one ETH--use decimals").toString(), 'ether');
+
+    //test
+    // console.log(ethAmountSelected); /*THIS WORKS!!!, showing that the conversion function from web3 is being invoked and is converting the ETH units into WEI units as prep for ethSend()*/
+
+    let serverObjectSelected = {};
+    let ethAddressSelected = "";
+
+    for (i = 0; i < serverLivesArray.length; i++) {
+        if (serverLivesArray[i].serverName === serverNameSelected) {
+            console.log(serverLivesArray[i].serverEthereumAddress);
+            console.log(serverLivesArray[i]);
+            serverObjectSelected = serverLivesArray[i];
+            ethAddressSelected = serverLivesArray[i].serverEthereumAddress;
+        }
+    }
+
+    //some tests:
+    // console.log(ethAddressSelected); /*THIS WORKS!!!, showing that ethAddressSelected has been assigned the correct address*/
+    // console.log(serverObjectSelected); /*THIS WORKS!!!, showing that serverObjectSelected has been assigned the correct server object*/
+
+    const sendTxWithMetamask = async () => {
+        const ethereum = window.ethereum;
+        let accounts = await ethereum.enable()
+        web3.setProvider(ethereum);
+        let selectedAddress = ethereum.selectedAddress
+        let balance = await web3.eth.getBalance(selectedAddress)
+        console.log('Balance', balance)
+        await web3.eth.sendTransaction({
+            to: ethAddressSelected, value: ethAmountSelected, from: selectedAddress
+        })
+        serverObjectSelected.makeVisible();
+    }
+
+    sendTxWithMetamask();
+
 });
 
 
+/*
+{
+    to,
+        from,
+        value: "1000000000000000000"
+},
+*/
+
+/*         web3.eth.sendTransaction({
+                    from: web3.eth.accounts[0],
+                    to: toAddress,
+                    value: web3.toWei(ethAmount, 'ether')
+                }, function (error, result) {
+                    if (error) {
+                        document.getElementById('output').innerHTML = "Something went wrong!"
+                    } else {
+                        document.getElementById('output').innerHTML = "Track the payment: <a href='https://etherscan.io/tx/" + result + "'>https://etherscan.io/tx/" + result + "'"
+                    }
+                });*/
 
 //sanity test to make sure MetaMask is loaded and being detected by web page. Uncomment and load page if in doubt.
 // window.addEventListener('load', function () {
