@@ -4,6 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/index.html" line="3" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="52308a22-0273-42a4-ab5a-5315974f7b6f" name="Default Changelist" comment="" />
+=======
     <list default="true" id="52308a22-0273-42a4-ab5a-5315974f7b6f" name="Default Changelist" comment="">
 
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -28,6 +31,7 @@
       <change beforePath="$PROJECT_DIR$/less/mixins.css.map" beforeDir="false" />
 
     </list>
+>>>>>>> 5fc84560483cfc06ba2172db53281862fa2952d0
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -55,6 +59,8 @@
 
         </entry>
       </file>
+<<<<<<< HEAD
+=======
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/less/footer.less">
           <provider selected="true" editor-type-id="text-editor">
@@ -67,12 +73,21 @@
         </entry>
       </file>
 
+>>>>>>> 5fc84560483cfc06ba2172db53281862fa2952d0
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/less/mixins.less">
+        <entry file="file://$PROJECT_DIR$/javascript/make-it-rain.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="280">
+              <caret line="62" column="35" lean-forward="true" selection-end-line="127" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+=======
             <state relative-caret-position="40">
               <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
 
+>>>>>>> 5fc84560483cfc06ba2172db53281862fa2952d0
             </state>
           </provider>
         </entry>
@@ -245,9 +260,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="57235000" />
+=======
 
     <option name="totallyTimeSpent" value="55980000" />
 
+>>>>>>> 5fc84560483cfc06ba2172db53281862fa2952d0
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -411,18 +430,26 @@
     <entry file="file://$PROJECT_DIR$/less/reset.less">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/make-it-rain.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/less/mixins.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
           <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/make-it-rain.js">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="280">
+          <caret line="62" column="35" lean-forward="true" selection-end-line="127" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+=======
+        <state relative-caret-position="40">
+          <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
 
+>>>>>>> 5fc84560483cfc06ba2172db53281862fa2952d0
         </state>
       </provider>
     </entry>
