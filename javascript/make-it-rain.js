@@ -71,7 +71,7 @@ serverLives.forEach(serverLife => {
 * Thus, it takes some time after sending the tip for the server's life story to appear and the user must be patient. In a future version, we could use a more custom configuration and use 0-block-confirmation,
 * though that would risk showing the server's life story in a tranasction that could be reverted.*/
 
-document.querySelector("#intro-section-container .inner-text-content button").addEventListener("click", () => {
+document.querySelector("#make-it-rain-button").addEventListener("click", () => {
 
     //some tests:
     // console.log('Web3 Detected! ' + web3.givenProvider.constructor.name); /*THIS WORKS!!!, showing that web3 is being properly assigned as Metamask node*/
