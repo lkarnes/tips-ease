@@ -4,7 +4,34 @@
     <bookmark url="file://$PROJECT_DIR$/index.html" line="3" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="52308a22-0273-42a4-ab5a-5315974f7b6f" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="52308a22-0273-42a4-ab5a-5315974f7b6f" name="Default Changelist" comment="">
+
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/make-it-rain.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/make-it-rain.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/less/global.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/less/global.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/less/global.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/global.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/less/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/less/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/less/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/less/index.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/less/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/less/make-it-rain-footer.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/footer.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/less/make-it-rain-global.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/less/make-it-rain-mixins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/less/make-it-rain-navigation.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/navigation.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/less/make-it-rain-reset.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/reset.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/less/make-it-rain-variables.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/variables.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/less/make-it-rain.css" beforeDir="false" afterPath="$PROJECT_DIR$/less/make-it-rain.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/less/make-it-rain.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/less/make-it-rain.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/less/make-it-rain.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/make-it-rain.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/less/mixins.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/less/mixins.css.map" beforeDir="false" />
+
+    </list>
+>>>>>>> 5fc84560483cfc06ba2172db53281862fa2952d0
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -17,6 +44,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+
         <entry file="file://$PROJECT_DIR$/make-it-rain.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="800">
@@ -28,16 +56,38 @@
               </folding>
             </state>
           </provider>
+
         </entry>
       </file>
+<<<<<<< HEAD
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/less/footer.less">
+          <provider selected="true" editor-type-id="text-editor">
+
+            <state relative-caret-position="300">
+              <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+
+            </state>
+          </provider>
+        </entry>
+      </file>
+
+>>>>>>> 5fc84560483cfc06ba2172db53281862fa2952d0
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/javascript/make-it-rain.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="280">
               <caret line="62" column="35" lean-forward="true" selection-end-line="127" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+=======
+            <state relative-caret-position="40">
+              <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+
+>>>>>>> 5fc84560483cfc06ba2172db53281862fa2952d0
             </state>
           </provider>
         </entry>
@@ -69,9 +119,12 @@
       <list>
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/javascript/index.js" />
+
         <option value="$PROJECT_DIR$/css/make-it-rain.css" />
+        <option value="$PROJECT_DIR$/less/footer.less" />
         <option value="$PROJECT_DIR$/javascript/metamask script.js" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_3.js" />
+
         <option value="$PROJECT_DIR$/less/make-it-rain.less" />
         <option value="$PROJECT_DIR$/less/global.less" />
         <option value="$PROJECT_DIR$/less/mixins.less" />
@@ -85,6 +138,7 @@
         <option value="$PROJECT_DIR$/less/index.less" />
         <option value="$PROJECT_DIR$/less/navigation.less" />
         <option value="$PROJECT_DIR$/less/footer.less" />
+
       </list>
     </option>
   </component>
@@ -102,6 +156,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -129,17 +184,18 @@
               <item name="tips-ease" type="462c0819:PsiDirectoryNode" />
               <item name="less" type="462c0819:PsiDirectoryNode" />
             </path>
+
             <path>
               <item name="tips-ease" type="b2602c69:ProjectViewProjectNode" />
               <item name="tips-ease" type="462c0819:PsiDirectoryNode" />
               <item name="less" type="462c0819:PsiDirectoryNode" />
               <item name="index.less" type="620a8d5e:NestingTreeNode" />
             </path>
+
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -200,12 +256,17 @@
       <updated>1560993972284</updated>
       <workItem from="1560993973533" duration="5987000" />
       <workItem from="1561092941560" duration="42963000" />
-      <workItem from="1561307516679" duration="5498000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="57235000" />
+=======
+
+    <option name="totallyTimeSpent" value="55980000" />
+
+>>>>>>> 5fc84560483cfc06ba2172db53281862fa2952d0
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -217,19 +278,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1917" height="950" extended-state="6" />
+    <frame x="67" y="25" width="2237" height="950" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12829989" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12872629" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32868758" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3298122" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.034843206" />
+      <window_info active="true" anchor="bottom" id="TODO" order="6" visible="true" weight="0.034843206" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
@@ -243,6 +304,7 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+
     <entry file="file://$PROJECT_DIR$/../responsive-web-design-I/index.html" />
     <entry file="file://$PROJECT_DIR$/../User-Interface/great-idea-website/index.html" />
     <entry file="file://$PROJECT_DIR$/../Sprint-Challenge--Advanced-CSS/index.html" />
@@ -255,12 +317,14 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/less/home.less">
+
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+        <state relative-caret-position="120">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
+
     <entry file="file://$PROJECT_DIR$/javascript/metamask script.js" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_3.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -330,11 +394,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
+
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/make-it-rain.css">
       <provider selected="true" editor-type-id="text-editor">
+
         <state relative-caret-position="301">
           <caret line="214" column="13" lean-forward="true" selection-start-line="214" selection-start-column="13" selection-end-line="214" selection-end-column="13" />
         </state>
@@ -373,11 +439,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/javascript/make-it-rain.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="280">
           <caret line="62" column="35" lean-forward="true" selection-end-line="127" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+=======
+        <state relative-caret-position="40">
+          <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+
+>>>>>>> 5fc84560483cfc06ba2172db53281862fa2952d0
         </state>
       </provider>
     </entry>
