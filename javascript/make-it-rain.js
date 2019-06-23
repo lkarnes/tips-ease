@@ -6,6 +6,8 @@
 
 // use the given Provider, e.g in the browser with Metamask, or instantiate a new websocket provider
 
+const ethereum = window.ethereum;
+ethereum.enable();
 
 let ethAddressesByServerName = [
     {name: "Batman", ethAddress: "0x584eb7AD314F96B98F51e613543cd212Ce9d49aC"},
@@ -55,6 +57,8 @@ serverLives.forEach(serverLife => {
 document.querySelector("#intro-section-container button").addEventListener("click", () => {
 
     const web3 = new Web3(Web3.givenProvider);
+    // const ethereum = window.ethereum;
+    // ethereum.enable();
 
     //some tests:
     // console.log('Web3 Detected! ' + web3.givenProvider.constructor.name); /*THIS WORKS!!!, showing that web3 is being properly assigned as Metamask node*/
@@ -93,7 +97,7 @@ document.querySelector("#intro-section-container button").addEventListener("clic
 
     const sendTxWithMetamask = async () => {
         const ethereum = window.ethereum;
-        let accounts = await ethereum.enable()
+        let accounts = await ethereum.enable();
         web3.setProvider(ethereum);
         let selectedAddress = ethereum.selectedAddress
         let balance = await web3.eth.getBalance(selectedAddress)
