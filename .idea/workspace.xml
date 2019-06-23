@@ -4,28 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/index.html" line="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52308a22-0273-42a4-ab5a-5315974f7b6f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/make-it-rain.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/make-it-rain.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/global.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/global.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/global.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/global.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/less/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/less/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/make-it-rain-footer.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/footer.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/make-it-rain-global.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/make-it-rain-mixins.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/make-it-rain-navigation.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/navigation.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/make-it-rain-reset.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/reset.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/make-it-rain-variables.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/variables.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/make-it-rain.css" beforeDir="false" afterPath="$PROJECT_DIR$/less/make-it-rain.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/make-it-rain.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/less/make-it-rain.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/make-it-rain.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/make-it-rain.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/mixins.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/mixins.css.map" beforeDir="false" />
-    </list>
+    <list default="true" id="52308a22-0273-42a4-ab5a-5315974f7b6f" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -51,20 +30,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/javascript/make-it-rain.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/less/mixins.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+            <state relative-caret-position="220">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -232,7 +205,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55980000" />
+    <option name="totallyTimeSpent" value="56754000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -391,17 +364,20 @@
     <entry file="file://$PROJECT_DIR$/less/reset.less">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/make-it-rain.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/less/mixins.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
           <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/make-it-rain.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
