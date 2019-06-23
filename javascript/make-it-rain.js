@@ -20,7 +20,6 @@ class ServerLifeElement {
         this.serverName = this.serverLifeElement.dataset.name;
         this.serverEthereumAddress = this.addressFinder(ethAddressesByServerName);
         console.log(this.serverEthereumAddress);
-        this.serverLifeElement.style.display = "none";
     }
 
     addressFinder(arr) {
@@ -32,14 +31,16 @@ class ServerLifeElement {
     };
 
 
+    makeInvisible() {
+        this.serverLifeElement.style.display = "none";
+    }
+
     makeVisible() {
         serverLivesArray.forEach(serverLife => serverLife.makeInvisible());
         this.serverLifeElement.style.display = "flex";
     }
 
-    makeInvisible() {
-        this.serverLifeElement.style.display = "none";
-    }
+
 }
 
 let serverLives = document.querySelectorAll(".server-life-info");
