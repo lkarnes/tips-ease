@@ -227,29 +227,38 @@ footer nav a:hover {
   color: #261447;
 }
 body {
-  background-image: url('../images/synth-wave.jpg');
-  background-position: center;
-  background-size: 50%;
   width: 100%;
   background-color: #0D0221;
 }
 .home {
   margin: 0 auto;
-  width: 75%;
 }
 .intro-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  background: #261447;
+  justify-content: center;
+  background-image: url('../images/synth-wave.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
   margin: 15px auto;
-  align-content: center;
+  height: 750px;
 }
 .intro-container .intro-item {
   width: 45%;
+  text-align: center;
+}
+.intro-container .intro-item p {
+  font-size: 2rem;
+}
+.intro-container .intro-item h1,
+.intro-container .intro-item h2,
+.intro-container .intro-item h3,
+.intro-container .intro-item h4 {
+  font-size: 6.5rem;
 }
 .intro-container .banner {
   width: 95%;
+  height: auto;
   padding: 20px 0;
 }
 .hidden {
@@ -261,18 +270,7 @@ body {
   background: #261447;
   padding: 15px;
   margin: 15px auto;
-  width: 100%;
-}
-.block button {
-  margin: 0 auto;
-  background: #2DE2E6;
-  color: #261447;
-  padding: 10px;
-  border: none;
-  font-weight: bold;
-}
-.block button:hover {
-  background: #540D6E;
+  width: 75%;
 }
 .block h2,
 .block h3 {
@@ -281,7 +279,8 @@ body {
 }
 .content {
   display: flex;
-  flex-direction: column;
+  width: 75%;
+  margin: 0 auto;
 }
 .content .block {
   display: flex;
@@ -289,37 +288,32 @@ body {
   background: #261447;
   padding: 15px;
   margin: 15px auto;
-  width: 100%;
+  width: 33%;
 }
-.content .block button {
-  margin: 0 auto;
-  background: #2DE2E6;
-  color: #261447;
-  padding: 10px;
-  border: none;
-  font-weight: bold;
-}
-.content .block button:hover {
-  background: #540D6E;
+.content .block .inner-text {
+  text-align: center;
+  margin-bottom: 15px;
 }
 .content .block h2,
 .content .block h3 {
   text-align: center;
   padding-bottom: 20px;
 }
-.endorsements-container {
-  display: flex;
+.banner {
+  width: 75%;
+  margin: 0 auto;
 }
-.endorsements-container .inner-text {
-  background: #261447;
-  margin: 15px auto;
-  width: 100%;
+.button {
+  margin: 35px auto;
+  background: #2DE2E6;
+  color: #261447;
+  padding: 10px;
+  border: none;
+  font-size: 1.4rem;
+  font-weight: bold;
 }
-.endorsements-container .inner-text p,
-.endorsements-container .inner-text h1 {
-  padding: 15px;
-  margin: 15px auto;
-  width: 100%;
+.button:hover {
+  background: #540D6E;
 }
 .affiliate {
   margin: 0 auto;
