@@ -171,6 +171,7 @@ a {
   text-decoration: none;
   color: #FF6C11;
 }
+/*added by gabe*/
 header {
   width: 100%;
   padding: 15px;
@@ -226,12 +227,39 @@ footer nav a {
 footer nav a:hover {
   color: #261447;
 }
+@media (max-width: 575px) {
+  header {
+    display: flex;
+    width: 575px;
+    flex-direction: column;
+    align-content: center;
+    align-items: stretch;
+  }
+}
+@media (max-width: 575px) {
+  header #top-nav {
+    width: 575px;
+    font-size: 10px;
+  }
+}
+@media (max-width: 575px) {
+  header #top-nav a {
+    width: 575px;
+    font-size: 10px;
+  }
+}
 body {
+  width: 100%;
   background-color: #0D0221;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+@media (max-width: 575px) {
+  body {
+    width: 575px;
+  }
 }
 #intro-section-container {
   width: 100%;
@@ -244,6 +272,12 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
 }
+@media (max-width: 575px) {
+  #intro-section-container {
+    width: 575px;
+    height: 955px;
+  }
+}
 #intro-section-container .inner-text-content {
   display: flex;
   justify-content: flex-start;
@@ -252,6 +286,12 @@ body {
   height: 3000px;
   width: 100%;
 }
+@media (max-width: 575px) {
+  #intro-section-container .inner-text-content {
+    width: 575px;
+    height: 955px;
+  }
+}
 #intro-section-container .inner-text-content .inner-text-content-header {
   text-align: center;
   font-size: 11rem;
@@ -259,16 +299,18 @@ body {
   width: 75%;
   margin: 200px 200px 50px 400px;
 }
-#intro-section-container .inner-text-content button {
-  font-size: 10rem;
-  background: #FF6C11;
-  color: #261447;
-  margin: 50px 100px 200px 400px;
-  border: none;
-  font-weight: bold;
+@media (max-width: 575px) {
+  #intro-section-container .inner-text-content .inner-text-content-header {
+    width: 575px;
+    height: 955px;
+  }
 }
-#intro-section-container .inner-text-content button:hover {
-  background: #540D6E;
+@media (max-width: 575px) {
+  #intro-section-container .inner-text-content button {
+    width: 100px;
+    font-size: 10px;
+    margin: 0px;
+  }
 }
 .server-life-info {
   width: 100%;
@@ -276,6 +318,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media (max-width: 575px) {
+  .server-life-info {
+    width: 575px;
+    height: 955px;
+  }
 }
 .server-life-info .inner-text-content {
   display: flex;
@@ -285,16 +333,56 @@ body {
   height: auto;
   width: 100%;
 }
+@media (max-width: 575px) {
+  .server-life-info .inner-text-content {
+    width: 575px;
+    height: 955px;
+  }
+}
 .server-life-info .inner-text-content .inner-text-content-header {
   text-align: center;
   color: #FF4365;
   width: 75%;
   font-size: 10rem;
 }
+@media (max-width: 575px) {
+  .server-life-info .inner-text-content .inner-text-content-header {
+    width: 300px;
+    height: 955px;
+    font-size: 10px;
+  }
+}
+@media (max-width: 575px) {
+  .server-life-info .inner-text-content .inner-text-content-header h2 {
+    width: 300px;
+    height: 955px;
+    font-size: 10px;
+  }
+}
 .server-life-info .inner-text-content p {
   text-align: center;
   color: #FF6C11;
   width: 75%;
   font-size: 9rem;
+}
+@media (max-width: 575px) {
+  .server-life-info .inner-text-content p {
+    width: 575px;
+    height: 955px;
+  }
+}
+@media (max-width: 575px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    width: 575px;
+    font-size: 10px;
+  }
+}
+@media (max-width: 575px) {
+  footer #bottom-nav a {
+    width: 575px;
+    font-size: 10px;
+  }
 }
 /*# sourceMappingURL=make-it-rain.css.map */
