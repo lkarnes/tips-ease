@@ -1,51 +1,63 @@
 
 .affiliate{
   margin:0 auto;
-  width: 75%;
+  width: 90%;
+  background: @main-bg;
 }
 .intro-container {
     display: flex;
+    text-align: center;
     padding: 75px 0 15px;
     margin: 15px auto;
-    
+    width: 100%;
+    .inner-text{
+        width: 75%;
+        margin:0 auto;
+    }
 }
-.supplemental-container{
+.content{
     display: flex;
-    flex-direction: column;
-    
-    .supplemental-block{
-        display: flex;
-        flex-direction: column;
-        background: @main-bg;
-        padding: 15px;
-        margin: 15px auto;
+    flex-wrap: wrap;
+    width: 100%;
+    .content-item{
         width: 100%;
-        border-radius: 25px;
-        button{
-            margin: 0 auto;
-            background: @button-bg;
-            color: @button-font;
-            padding: 10px;
-            border: none;
-            font-weight: bold;
+    }
+    .q-box{
+        display: flex;
+        justify-content: space-around;
+        .q-item{
+            width: 45%;
+            padding: 5px;
+            border-left: 1px solid @baby-blue;
+            border-bottom: 1px solid @baby-blue;
+            margin: 10px;
         }
-        h3{
+    }
+    .img-box{
+        display: flex;
+        justify-content: space-between;
+        img{
+            height: 200px;
+        }
+        .img-item{
             text-align: center;
-            padding-bottom: 20px;
+            width: 33%;  
+            p{
+                padding: 5px;
+                border-bottom: 1px solid @baby-blue;
+            }   
         }
     }
 }
-.endorsements-container{
+.outro-container{
     display: flex;
-    .inner-text-content{
-        background: @main-bg;
-        margin: 15px auto;
-        width: 100%;
-        p, h1{
-
-            padding: 15px;
-            margin: 15px auto;
-            width: 100%;
-        }
+    flex-direction: column;
+    padding: 15px;
+    h1{
+        padding: 5px;
+    }
+    p{
+        padding: 5px;
+        text-align: center;
     }
 }
