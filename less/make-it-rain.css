@@ -272,12 +272,11 @@ footer nav a:hover {
 }
 @media (max-width: 575px) {
   header #top-nav a {
-    width: 575px;
     font-size: 10px;
   }
 }
 body {
-  width: 100%;
+  width: 575px;
   background-color: #0D0221;
   display: flex;
   justify-content: center;
@@ -286,7 +285,7 @@ body {
 }
 @media (max-width: 575px) {
   body {
-    width: 575px;
+    width: 100%;
   }
 }
 #intro-section-container {
@@ -363,7 +362,7 @@ body {
 }
 @media (max-width: 575px) {
   .server-life-info {
-    width: 575px;
+    width: 500px;
     height: 955px;
   }
 }
@@ -377,7 +376,7 @@ body {
 }
 @media (max-width: 575px) {
   .server-life-info .inner-text-content {
-    width: 575px;
+    width: 500px;
     height: 955px;
   }
 }
@@ -402,7 +401,7 @@ body {
 }
 @media (max-width: 575px) {
   .server-life-info p {
-    width: 575px;
+    width: 500px;
     height: 955px;
   }
 }
