@@ -359,20 +359,77 @@ body {
   background-size: 100%;
   background-repeat: no-repeat;
   margin: 15px auto;
-  height: 750px;
+}
+@media (max-width: 800px) {
+  .home .intro-container {
+    background: #261447;
+  }
 }
 .home .intro-container .intro-item {
   width: 45%;
   text-align: center;
 }
+@media (max-width: 800px) {
+  .home .intro-container .intro-item {
+    width: 90%;
+    background-image: url('../images/synth-wave.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+  }
+}
+@media (max-width: 500px) {
+  .home .intro-container .intro-item {
+    width: 90%;
+  }
+}
 .home .intro-container .intro-item p {
-  font-size: 2rem;
+  font-size: 4rem;
+}
+@media (max-width: 2000px) {
+  .home .intro-container .intro-item p {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 800px) {
+  .home .intro-container .intro-item p {
+    font-size: 1.6rem;
+  }
+}
+@media (max-width: 500px) {
+  .home .intro-container .intro-item p {
+    font-size: 1.4rem;
+  }
 }
 .home .intro-container .intro-item h1,
 .home .intro-container .intro-item h2,
 .home .intro-container .intro-item h3,
 .home .intro-container .intro-item h4 {
-  font-size: 6.5rem;
+  font-size: 9.5rem;
+}
+@media (max-width: 2000px) {
+  .home .intro-container .intro-item h1,
+  .home .intro-container .intro-item h2,
+  .home .intro-container .intro-item h3,
+  .home .intro-container .intro-item h4 {
+    font-size: 6.5rem;
+  }
+}
+@media (max-width: 800px) {
+  .home .intro-container .intro-item h1,
+  .home .intro-container .intro-item h2,
+  .home .intro-container .intro-item h3,
+  .home .intro-container .intro-item h4 {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 500px) {
+  .home .intro-container .intro-item h1,
+  .home .intro-container .intro-item h2,
+  .home .intro-container .intro-item h3,
+  .home .intro-container .intro-item h4 {
+    font-size: 2.3rem;
+  }
 }
 .home .hidden {
   display: none;
@@ -405,6 +462,18 @@ body {
   margin: 15px auto;
   width: 33%;
   min-height: 175px;
+}
+@media (max-width: 800px) {
+  .home .content .block {
+    width: 85%;
+    border: 1px solid #2DE2E6;
+    margin: 5px auto;
+  }
+}
+@media (max-width: 500px) {
+  .home .content .block {
+    width: 90%;
+  }
 }
 .home .content .block .inner-text {
   text-align: center;
