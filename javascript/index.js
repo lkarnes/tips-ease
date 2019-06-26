@@ -25,6 +25,7 @@ class Button {
             this.btnAttr.textContent = 'Show Less';
         }else{
             this.btnAttr.textContent = 'Show More';
+            this.btnAttr.display.height = '200px';
         }
     }
 }
