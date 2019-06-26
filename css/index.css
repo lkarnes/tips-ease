@@ -254,6 +254,15 @@ header {
   justify-content: space-between;
   background: #540D6E;
 }
+@media (max-width: 575px) {
+  header {
+    display: flex;
+    width: 575px;
+    flex-direction: column;
+    align-content: center;
+    align-items: stretch;
+  }
+}
 header h3 {
   font-size: 9rem;
 }
@@ -267,6 +276,12 @@ header #top-nav {
   display: flex;
   align-items: center;
 }
+@media (max-width: 575px) {
+  header #top-nav {
+    width: 575px;
+    font-size: 10px;
+  }
+}
 header #top-nav a {
   width: 25%;
   text-align: center;
@@ -277,6 +292,12 @@ header #top-nav a {
 }
 header #top-nav a:hover {
   color: #0D0221;
+}
+@media (max-width: 575px) {
+  header #top-nav a {
+    width: 575px;
+    font-size: 10px;
+  }
 }
 footer {
   display: flex;
