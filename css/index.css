@@ -381,6 +381,7 @@ body {
 @media (max-width: 500px) {
   .home .intro-container .intro-item {
     width: 90%;
+    height: 150px;
   }
 }
 .home .intro-container .intro-item p {
@@ -486,6 +487,18 @@ body {
 .home .content .block h3 {
   text-align: center;
   padding-bottom: 10px;
+}
+.img-block {
+  justify-content: space-between;
+  display: flex;
+  background: #261447;
+  padding: 15px;
+  margin: 15px auto;
+  width: 90%;
+}
+.img-block .img-item {
+  width: 30%;
+  text-align: center;
 }
 .banner {
   width: 90%;

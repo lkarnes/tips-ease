@@ -30,6 +30,7 @@ body{
         }
         @media @mobile{
             width: 90%;
+            height: 150px;
         }
         
         p {
@@ -110,7 +111,19 @@ body{
     }            
 }
 }
-
+.img-block{
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    background: @main-bg; 
+    padding: 15px;
+    margin: 15px auto;
+    width: 90%;
+    .img-item{
+        width: 30%;
+        text-align: center;
+    }
+}
 .banner{
     width: 90%;
     margin: 0 auto;
