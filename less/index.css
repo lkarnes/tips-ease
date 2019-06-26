@@ -182,35 +182,45 @@ header {
 @media (max-width: 575px) {
   header {
     display: flex;
-    width: 575px;
+    width: 500px;
     flex-direction: column;
     align-content: center;
     align-items: stretch;
   }
 }
-header h3 {
+header #brand {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+header #brand h3 {
   font-size: 9rem;
 }
 @media (max-width: 1800px) {
-  header h3 {
+  header #brand h3 {
     font-size: 9rem;
   }
 }
+@media (max-width: 575px) {
+  header #brand h3 {
+    font-size: 30px;
+  }
+}
 header #top-nav {
-  width: 50%;
+  width: 60%;
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 @media (max-width: 575px) {
   header #top-nav {
-    width: 575px;
+    width: 100%;
     font-size: 10px;
   }
 }
 header #top-nav a {
-  width: 25%;
   text-align: center;
-  font-size: 7rem;
+  font-size: 5rem;
   font-weight: bold;
   padding: 1px;
   margin: 5px;
@@ -220,7 +230,6 @@ header #top-nav a:hover {
 }
 @media (max-width: 575px) {
   header #top-nav a {
-    width: 575px;
     font-size: 10px;
   }
 }
@@ -233,15 +242,37 @@ footer {
 footer nav {
   display: flex;
   justify-content: space-around;
-  width: 75%;
+  width: 90%;
   margin: 0 auto;
 }
 footer nav a {
   font-size: 7rem;
+  padding: 5px;
+  border-left: 1px solid #2DE2E6;
+  border-right: 1px solid #2DE2E6;
 }
 @media (max-width: 1800px) {
   footer nav a {
-    font-size: 7rem;
+    font-size: 1.8rem;
+    text-align: center;
+  }
+}
+@media (max-width: 800px) {
+  footer nav a {
+    font-size: 1.5rem;
+    border: none;
+    text-align: center;
+    padding: none;
+    width: 20%;
+  }
+}
+@media (max-width: 575px) {
+  footer nav a {
+    font-size: 1.2rem;
+    border: none;
+    text-align: center;
+    padding: none;
+    width: 20%;
   }
 }
 footer nav a:hover {
