@@ -218,6 +218,12 @@ header #top-nav a {
 header #top-nav a:hover {
   color: #0D0221;
 }
+@media (max-width: 575px) {
+  header #top-nav a {
+    width: 575px;
+    font-size: 10px;
+  }
+}
 footer {
   display: flex;
   background: #540D6E;
@@ -249,10 +255,18 @@ footer nav a:hover {
     align-content: center;
     align-items: stretch;
   }
+  header #brand {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  header #brand h3 {
+    font-size: 30px;
+  }
 }
 @media (max-width: 575px) {
   header #top-nav {
-    width: 575px;
+    width: 100%;
     font-size: 10px;
   }
 }
@@ -311,30 +325,36 @@ body {
   font-size: 11rem;
   color: #FF4365;
   width: 75%;
-  margin: 200px 200px 50px 400px;
+  margin: 0px;
 }
 @media (max-width: 575px) {
   #intro-section-container .inner-text-content .inner-text-content-header {
-    width: 575px;
-    height: 955px;
+    font-size: 35px;
+    width: 300px;
+    height: 1%;
+    margin: 75px 400px 400px 450px;
   }
 }
-#intro-section-container .inner-text-content #intro-section-container .inner-text-content button {
+#intro-section-container .inner-text-content button {
   font-size: 10rem;
   background: #FF6C11;
   color: #261447;
-  margin: 50px 100px 200px 400px;
+  margin: 50px 100px 500px 400px;
   border: none;
   font-weight: bold;
 }
+#intro-section-container .inner-text-content button:hover {
+  background: #540D6E;
+}
 @media (max-width: 575px) {
-  #intro-section-container .inner-text-content #intro-section-container .inner-text-content button {
-    width: 575px;
-    height: 955px;
-    font: 10px;
+  #intro-section-container .inner-text-content button {
+    font-size: 35px;
+    width: 300px;
+    height: 200px;
+    margin: 0px 400px 450px 450px;
   }
 }
-#intro-section-container .server-life-info {
+.server-life-info {
   width: 100%;
   height: auto;
   display: flex;
@@ -342,12 +362,12 @@ body {
   align-items: center;
 }
 @media (max-width: 575px) {
-  #intro-section-container .server-life-info {
+  .server-life-info {
     width: 575px;
     height: 955px;
   }
 }
-#intro-section-container .server-life-info .inner-text-content {
+.server-life-info .inner-text-content {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -356,32 +376,32 @@ body {
   width: 100%;
 }
 @media (max-width: 575px) {
-  #intro-section-container .server-life-info .inner-text-content {
+  .server-life-info .inner-text-content {
     width: 575px;
     height: 955px;
   }
 }
-#intro-section-container .server-life-info .inner-text-content .inner-text-content-header {
+.server-life-info .inner-text-content .inner-text-content-header {
   text-align: center;
   color: #FF4365;
   width: 75%;
   font-size: 10rem;
 }
 @media (max-width: 575px) {
-  #intro-section-container .server-life-info .inner-text-content .inner-text-content-header {
+  .server-life-info .inner-text-content .inner-text-content-header {
     width: 300px;
     height: 955px;
     font-size: 10px;
   }
 }
-#intro-section-container .server-life-info p {
+.server-life-info p {
   text-align: center;
   color: #FF6C11;
   width: 75%;
   font-size: 9rem;
 }
 @media (max-width: 575px) {
-  #intro-section-container .server-life-info p {
+  .server-life-info p {
     width: 575px;
     height: 955px;
   }
@@ -395,9 +415,16 @@ body {
   }
 }
 @media (max-width: 575px) {
-  footer #bottom-nav a {
-    width: 575px;
-    font-size: 10px;
+  footer #bottom-nav {
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    justify-content: space-evenly;
   }
 }
-/*# sourceMappingURL=make-it-rain.css.map */
+@media (max-width: 575px) {
+  footer #bottom-nav a {
+    font-size: 10px;
+    margin: 0px;
+  }
+}
