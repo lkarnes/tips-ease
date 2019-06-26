@@ -242,15 +242,37 @@ footer {
 footer nav {
   display: flex;
   justify-content: space-around;
-  width: 75%;
+  width: 90%;
   margin: 0 auto;
 }
 footer nav a {
   font-size: 7rem;
+  padding: 5px;
+  border-left: 1px solid #2DE2E6;
+  border-right: 1px solid #2DE2E6;
 }
 @media (max-width: 1800px) {
   footer nav a {
-    font-size: 7rem;
+    font-size: 1.8rem;
+    text-align: center;
+  }
+}
+@media (max-width: 800px) {
+  footer nav a {
+    font-size: 1.5rem;
+    border: none;
+    text-align: center;
+    padding: none;
+    width: 20%;
+  }
+}
+@media (max-width: 575px) {
+  footer nav a {
+    font-size: 1.2rem;
+    border: none;
+    text-align: center;
+    padding: none;
+    width: 20%;
   }
 }
 footer nav a:hover {
@@ -384,27 +406,5 @@ body {
   .server-life-info .inner-text-content p {
     width: 500px;
     height: 955px;
-  }
-}
-@media (max-width: 575px) {
-  footer {
-    display: flex;
-    flex-direction: column;
-    width: 500px;
-    font-size: 10px;
-  }
-}
-@media (max-width: 575px) {
-  footer #bottom-nav {
-    width: 100%;
-    margin: 0px;
-    display: flex;
-    justify-content: space-evenly;
-  }
-}
-@media (max-width: 575px) {
-  footer #bottom-nav a {
-    font-size: 10px;
-    margin: 0px;
   }
 }
