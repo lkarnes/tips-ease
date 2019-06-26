@@ -1,4 +1,3 @@
-
 @import 'mixins.less';
 
 
@@ -37,7 +36,8 @@ header {
   #top-nav {
     width: 60%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    padding: 25px;
     align-items: center;
 
     @media @mobile {
@@ -47,17 +47,33 @@ header {
 
 
     a {
-      text-align: center;
-      font-size: 5rem;
-      font-weight: bold;
-      padding: 1px;
-      margin: 5px;
+      font-size: 7rem;
+      padding: 5px;
+      border-left: 1px solid @baby-blue;
+      border-right: 1px solid @baby-blue;
 
-      &:hover {
-        color: @section-bg;
+      @media @desktop {
+        font-size: 1.8rem;
+        text-align: center;
+
+      }
+      @media @tablet {
+        font-size: 1.5rem;
+        border: none;
+        text-align: center;
+        padding: none;
+        width: 20%;
       }
       @media @mobile {
-        font-size: 10px;
+        font-size: 1.2rem;
+        border: none;
+        text-align: center;
+        padding: none;
+        width: 20%;
+      }
+
+      &:hover {
+        color: @main-bg;
       }
     }
   }
