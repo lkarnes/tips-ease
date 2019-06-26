@@ -11,6 +11,15 @@ header {
   justify-content: space-between;
   background: @navigation-bg;
 
+  @media @mobile {
+    display: flex;
+    width: 575px;
+    flex-direction: column;
+    align-content: center;
+    align-items: stretch;
+  }
+
+
 
   h3 {
     font-size: 9rem;
@@ -24,6 +33,11 @@ header {
     display: flex;
     align-items: center;
 
+    @media @mobile {
+      width: 575px;
+      font-size: 10px;
+    }
+
 
     a {
       width: 25%;
@@ -35,6 +49,11 @@ header {
 
       &:hover {
         color: @section-bg;
+      }
+
+      @media @mobile {
+        width: 575px;
+        font-size: 10px;
       }
     }
   }

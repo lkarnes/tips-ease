@@ -179,6 +179,15 @@ header {
   justify-content: space-between;
   background: #540D6E;
 }
+@media (max-width: 575px) {
+  header {
+    display: flex;
+    width: 575px;
+    flex-direction: column;
+    align-content: center;
+    align-items: stretch;
+  }
+}
 header h3 {
   font-size: 9rem;
 }
@@ -191,6 +200,12 @@ header #top-nav {
   width: 50%;
   display: flex;
   align-items: center;
+}
+@media (max-width: 575px) {
+  header #top-nav {
+    width: 575px;
+    font-size: 10px;
+  }
 }
 header #top-nav a {
   width: 25%;
@@ -316,6 +331,7 @@ body {
   #intro-section-container .inner-text-content #intro-section-container .inner-text-content button {
     width: 575px;
     height: 955px;
+    font: 10px;
   }
 }
 #intro-section-container .server-life-info {
