@@ -145,23 +145,98 @@ h5 {
   font-family: 'roboto', sans-serif;
 }
 h1 {
-  font-size: 4rem;
+  font-size: 9rem;
+}
+@media (max-width: 2000px) {
+  h1 {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 800px) {
+  h1 {
+    font-size: 3.2rem;
+  }
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 2rem;
+  }
 }
 h2 {
-  font-size: 3.2rem;
+  font-size: 6.5rem;
   padding-bottom: 10px;
 }
+@media (max-width: 2000px) {
+  h2 {
+    font-size: 3.2rem;
+  }
+}
+@media (max-width: 800px) {
+  h2 {
+    font-size: 2.8rem;
+  }
+}
+@media (max-width: 500px) {
+  h2 {
+    font-size: 1.6rem;
+  }
+}
 h3 {
-  font-size: 2.5rem;
+  font-size: 5rem;
+}
+@media (max-width: 2000px) {
+  h3 {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 800px) {
+  h3 {
+    font-size: 3.2rem;
+  }
+}
+@media (max-width: 500px) {
+  h3 {
+    font-size: 2rem;
+  }
 }
 h4 {
   font-size: 2.5rem;
   padding-bottom: 10px;
 }
+@media (max-width: 2000px) {
+  h4 {
+    font-size: 2.2rem;
+  }
+}
+@media (max-width: 800px) {
+  h4 {
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 500px) {
+  h4 {
+    font-size: 1.5rem;
+  }
+}
 p {
   line-height: 1.5;
-  font-size: 1.6rem;
+  font-size: 3.2rem;
   padding-bottom: 10px;
+}
+@media (max-width: 2000px) {
+  p {
+    font-size: 1.6rem;
+  }
+}
+@media (max-width: 800px) {
+  p {
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 500px) {
+  p {
+    font-size: 1rem;
+  }
 }
 img {
   max-width: 100%;
