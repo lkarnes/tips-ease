@@ -25,23 +25,37 @@
     .q-box{
         display: flex;
         justify-content: space-around;
+        @media @tablet{
+            flex-direction: column;
+        }
         .q-item{
             width: 45%;
             padding: 5px;
             border-left: 1px solid @baby-blue;
             border-bottom: 1px solid @baby-blue;
             margin: 10px;
+            @media @tablet{
+                width: 90%;
+                border: 1px solid @baby-blue;
+            }
         }
     }
     .img-box{
         display: flex;
         justify-content: space-between;
+        @media @tablet{
+            flex-direction: column;
+            justify-content: center;
+        }
         img{
             height: 200px;
         }
         .img-item{
             text-align: center;
             width: 33%;  
+            @media @tablet{
+                width: 100%;
+            }
             p{
                 padding: 5px;
                 border-bottom: 1px solid @baby-blue;
@@ -53,8 +67,10 @@
     display: flex;
     flex-direction: column;
     padding: 15px;
+    margin: 0 auto;
     h1{
         padding: 5px;
+        text-align: center;
     }
     p{
         padding: 5px;
