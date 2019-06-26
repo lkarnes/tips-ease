@@ -6,21 +6,36 @@ footer{
     nav{
         display: flex;
         justify-content: space-around;
-        width: 75%;
+        width: 90%;
         margin: 0 auto;
         a{
             font-size: 7rem;
+            padding: 5px;
+            border-left: 1px solid @baby-blue;
+            border-right: 1px solid @baby-blue;
 
             @media @desktop {
-            font-size: 7rem;
-
+            font-size: 1.8rem;
+            text-align: center;
+            }
+            @media @tablet{
+                font-size:1.5rem;
+                border: none;
+                text-align: center;
+                padding: none;
+                width: 20%;
+            }
+            @media @mobile{
+                font-size: 1.2rem;
+                border: none;
+                text-align: center;
+                padding: none;
+                width: 20%;
             }
             &:hover{
                 color: @main-bg;
             }
         }
-    
     }
-
 }
 

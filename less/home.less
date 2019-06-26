@@ -4,8 +4,7 @@ body{
 }
 .home{
   margin:0 auto;
-}
-.intro-container {
+  .intro-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -13,23 +12,51 @@ body{
     background-size: 100%;
     background-repeat: no-repeat;
     margin: 15px auto;
-    height: 750px;
+    @media @tablet{
+        background: @main-bg;
+    }
     
     .intro-item{
         width: 45%;
         text-align: center;
+        @media @desktop{
+        }
+        @media @tablet{
+            width: 90%;
+            background-image: url('../images/synth-wave.jpg');
+            background-size: 100%;
+            background-repeat: no-repeat;
+            height: 300px;
+        }
+        @media @mobile{
+            width: 90%;
+            height: 150px;
+        }
         
         p {
-            font-size: 2rem;
+            font-size: 4rem;
+            @media @desktop{
+                font-size: 2rem;
+            }
+            @media @tablet{
+                font-size: 1.6rem;
+            }
+            @media @mobile{
+                font-size: 1.4rem;
+            }
         }
         h1, h2, h3, h4 {
-            font-size: 6.5rem;
+            font-size: 9.5rem;
+            @media @desktop{
+                font-size: 6.5rem;
+            }
+            @media @tablet{
+                font-size: 3rem;
+            }
+            @media @mobile{
+                font-size: 2.3rem;
+            }
         }
-    }
-    .banner{
-        width: 95%;
-        height: auto;
-        padding: 20px 0;
     }
 }
 .hidden{
@@ -41,7 +68,7 @@ body{
     background: @main-bg; 
     padding: 15px;
     margin: 15px auto;
-    width: 75%;
+    width: 90%;
     h2,h3{
         text-align: center;
         padding-bottom: 20px;
@@ -49,28 +76,56 @@ body{
 }
 .content{
     display: flex;
-    width: 75%;
+    align-items: flex-end;
+    width: 90%;
     margin: 0 auto;
     .block{
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
         background: @main-bg;
-        padding: 15px;
+        padding: 5px;
         margin: 15px auto;
         width: 33%;
+        min-height: 175px;
+        @media @tablet{
+            width: 85%;
+            border: 1px solid @baby-blue;
+            margin: 5px auto;
+        }
+        @media @mobile{
+            width: 90%;
+        }
         
         .inner-text{
             text-align: center;
             margin-bottom: 15px;
+            p{
+                padding-bottom: 10px;
+            }
         }
         h2,h3{
             text-align: center;
-            padding-bottom: 20px;
+            padding-bottom: 10px;
         }
     }            
 }
+}
+.img-block{
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    background: @main-bg; 
+    padding: 15px;
+    margin: 15px auto;
+    width: 90%;
+    .img-item{
+        width: 30%;
+        text-align: center;
+    }
+}
 .banner{
-    width: 75%;
+    width: 90%;
     margin: 0 auto;
 }
 .button {
