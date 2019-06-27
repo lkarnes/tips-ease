@@ -5,52 +5,7 @@
 @import 'mixins.less';
 @import 'footer.less';
 
-header {
-  @media @mobile {
-    display: flex;
-    width: 575px;
-    flex-direction: column;
-    align-content: center;
-    align-items: stretch;
 
-    #brand {
-      display: flex;
-      align-content: center;
-      justify-content: center;
-
-      h3 {
-        font-size: 30px;
-      }
-    }
-  }
-
-  #top-nav {
-    @media @mobile {
-      width: 100%;
-      font-size: 10px;
-    }
-
-
-    a {
-      @media @mobile {
-        font-size: 10px;
-      }
-    }
-  }
-}
-
-body {
-  width: 575px;
-  background-color: @section-bg;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-
-  @media @mobile {
-    width: 100%;
-  }
-}
 
 #intro-section-container {
   width: 100%;
@@ -64,7 +19,7 @@ body {
   background-position: center center;
 
   @media @mobile {
-    width: 575px;
+    width: 500px;
     height: 955px;
   }
 
@@ -78,7 +33,7 @@ body {
     width: 100%;
 
     @media @mobile {
-      width: 575px;
+      width: 500px;
       height: 955px;
     }
 
@@ -88,14 +43,13 @@ body {
       font-size: 11rem;
       color: @light-red;
       width: 75%;
-      margin: 0px; //200px 200px 50px 400px;
+      margin: 200px 200px 50px 400px;
 
       @media @mobile {
         font-size: 35px;
         width: 300px;
         height: 1%;
-        margin: 75px 400px 400px 450px;
-        //           T   R     B    L
+        margin: 75px 400px 400px 475px;
       }
 
     }
@@ -104,7 +58,7 @@ body {
       font-size: 10rem;
       background: @button-bg;
       color: @button-font;
-      margin: 50px 100px 500px 400px;
+      margin: 50px 100px 200px 250px;
       border: none;
       font-weight: bold;
 
@@ -117,7 +71,6 @@ body {
         width: 300px;
         height: 200px;
         margin: 0px 400px 450px 450px;
-        //       T   R     B    L
       }
     }
   }
@@ -161,45 +114,21 @@ body {
         font-size: 10px;
       }
     }
-  }
 
-  p {
-    text-align: center;
-    color: @sun-rays;
-    width: 75%;
-    font-size: 9rem;
+    p {
+      text-align: center;
+      color: @sun-rays;
+      width: 75%;
+      font-size: 9rem;
 
 
-    @media @mobile {
-      width: 500px;
-      height: 955px;
+      @media @mobile {
+        width: 500px;
+        height: 955px;
+      }
     }
   }
 }
 
 
-footer {
-  @media @mobile {
-    display: flex;
-    flex-direction: column;
-    width: 575px;
-    font-size: 10px;
-  }
-
-    #bottom-nav {
-      @media @mobile {
-        width: 100%;
-        margin: 0px;
-        display: flex;
-        justify-content: space-evenly;
-      }
-
-      a {
-        @media @mobile {
-          font-size: 10px;
-          margin: 0px;
-        }
-      }
-    }
-  }
 
