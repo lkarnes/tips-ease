@@ -1,7 +1,6 @@
 class Content {
     constructor(attr){
         this.attr = attr;
-        console.log(this.attr);
     }
     selectButton(){
         this.attr.classList.toggle('hidden');
@@ -12,7 +11,6 @@ class Button {
         this.btnAttr = btnAttr;
         this.btnData = this.btnAttr.dataset.button;
         this.content = document.querySelector(`.inner-text[data-button="${this.btnData}"`);
-        console.log(this.content);
         this.contentClass =new Content(this.content);
         
         this.btnAttr.addEventListener('click', ()=>{

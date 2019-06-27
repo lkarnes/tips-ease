@@ -13,8 +13,7 @@ footer {
     a {
       font-size: 7rem;
       padding: 5px;
-      border-left: 1px solid @baby-blue;
-      border-right: 1px solid @baby-blue;
+      border: 1px solid @baby-blue;
 
       @media @desktop {
         font-size: 1.8rem;
@@ -38,6 +37,8 @@ footer {
 
       &:hover {
         color: @main-bg;
+        background: @button-bg;
+        transition: all ease-in-out .2s;
       }
     }
   }

@@ -1,17 +1,13 @@
 body {
-  width: 100%;
-  background-color: @section-bg;
-
-  //    added by Gabe - delete if causes breakage
-  display: flex;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  @media @mobile {
-    width: 500px;
+    width: 100%;
+    background-color: @section-bg;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    @media @mobile {
+        max-width: 500px;
   }
-  //    added by Gabe - delete if causes breakage
 }
 
 
@@ -22,7 +18,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-image: url('../images/synth-wave.jpg');
+    background-image: url('../images/stars-bg.jpeg');
     background-size: 100%;
     background-repeat: no-repeat;
     margin: 15px auto;
@@ -37,7 +33,7 @@ body {
       }
       @media @tablet {
         width: 90%;
-        background-image: url('../images/synth-wave.jpg');
+        background-image: url('../images/stars-bg.jpeg');
         background-size: 100%;
         background-repeat: no-repeat;
         height: 300px;
@@ -124,6 +120,10 @@ body {
 
         p {
           padding-bottom: 10px;
+          text-align: left;
+          @media (max-width: 1200px){
+              font-size: 1.4rem;
+          }
         }
       }
 
@@ -166,6 +166,7 @@ body {
 
   &:hover {
     background: @footer-bg;
+    transition: all ease-in-out .2s;
   }
 }
 
