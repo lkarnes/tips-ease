@@ -12,7 +12,6 @@ class Button {
         this.btnData = this.btnAttr.dataset.button;
         this.content = document.querySelector(`.inner-text[data-button="${this.btnData}"`);
         this.contentClass =new Content(this.content);
-        
         this.btnAttr.addEventListener('click', ()=>{
             this.contentClass.selectButton();
             this.selectButton();
@@ -23,7 +22,6 @@ class Button {
             this.btnAttr.textContent = 'Show Less';
         }else{
             this.btnAttr.textContent = 'Show More';
-            this.btnAttr.display.height = '200px';
         }
     }
 }
