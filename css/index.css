@@ -428,10 +428,17 @@ body {
   background-size: 100%;
   background-repeat: no-repeat;
   margin: 15px auto;
+  min-height: 610px;
+}
+@media (max-width: 940px) {
+  .home .intro-container {
+    min-height: 500px;
+  }
 }
 @media (max-width: 800px) {
   .home .intro-container {
     background: #261447;
+    min-height: 0px;
   }
 }
 .home .intro-container .intro-item {
@@ -517,13 +524,13 @@ body {
   text-align: center;
   padding-bottom: 20px;
 }
-.home .content {
+.home .intro-buttons {
   display: flex;
   align-items: flex-end;
   width: 90%;
   margin: 0 auto;
 }
-.home .content .block {
+.home .intro-buttons .block {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -534,34 +541,34 @@ body {
   min-height: 175px;
 }
 @media (max-width: 800px) {
-  .home .content .block {
+  .home .intro-buttons .block {
     width: 85%;
     border: 1px solid #2DE2E6;
     margin: 5px auto;
   }
 }
 @media (max-width: 500px) {
-  .home .content .block {
+  .home .intro-buttons .block {
     width: 90%;
   }
 }
-.home .content .block .inner-text {
+.home .intro-buttons .block .inner-text {
   text-align: center;
   margin-bottom: 15px;
 }
-.home .content .block .inner-text p {
+.home .intro-buttons .block .inner-text p {
   padding-bottom: 10px;
   text-align: left;
 }
 @media (max-width: 1200px) {
-  .home .content .block .inner-text p {
+  .home .intro-buttons .block .inner-text p {
     font-size: 1.4rem;
   }
 }
-.home .content .block h2,
-.home .content .block h3 {
+.home .intro-buttons .block h2,
+.home .intro-buttons .block h3 {
   text-align: center;
-  padding-bottom: 10px;
+  padding-bottom: 0px;
 }
 .img-block {
   justify-content: space-between;
