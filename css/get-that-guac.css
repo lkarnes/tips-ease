@@ -683,13 +683,3 @@ body {
     width: 75%;
   }
 }
-.block {
-  margin: 0px;
-}
-.block .server-life-info {
-  margin: 1%;
-}
-.block h3 {
-  color: #FF6C11;
-  margin: 1%;
-}
