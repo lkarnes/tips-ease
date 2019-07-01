@@ -19,40 +19,46 @@ body {
     background-image: url('../images/stars-bg.jpeg');
     background-size: 100%;
     background-repeat: no-repeat;
-    margin: 15px auto;
+    margin: 5px auto;
     min-height: 610px;
     @media (max-width: 940px){
-      min-height: 500px;
+      min-height: 0px;
     }
     @media @tablet {
       background: @main-bg;
-      min-height: 0px;
     }
 
     .intro-item {
       width: 45%;
+      height: 125px;
+      margin-top: 125px;
       text-align: center;
+      background: linear-gradient(rgba(13, 2, 33, 0.75),rgba(84, 13, 110, 0.74));
+      border: 1px solid @purple-haze;
+      border-radius: 5px;
       @media @desktop {
       }
       @media @tablet {
         width: 90%;
-        background-image: url('../images/stars-bg.jpeg');
-        background-size: 100%;
-        background-repeat: no-repeat;
-        height: 300px;
+        border: 1px solid @purple-haze;
+        border-radius: 5px;
+        margin: 10px auto;
+        padding: 5px;
+        height: auto;
       }
       @media @mobile {
         width: 90%;
-        height: 150px;
       }
 
       p {
         font-size: 4rem;
+        line-height: 1;
         @media @desktop {
           font-size: 2rem;
         }
         @media @tablet {
           font-size: 1.6rem;
+          background: rgba(13, 2, 33, 0.75);
         }
         @media @mobile {
           font-size: 1.4rem;
@@ -63,10 +69,11 @@ body {
       h1, h2, h3, h4 {
         font-size: 9.5rem;
         @media @desktop {
-          font-size: 6.5rem;
+          font-size: 7rem;
         }
         @media @tablet {
           font-size: 3rem;
+          background: rgba(13, 2, 33, 0.75);
         }
         @media @mobile {
           font-size: 2.3rem;
@@ -78,12 +85,21 @@ body {
   .hidden {
     display: none;
   }
+  .tablet-photo{
+    display: none;
+    @media @tablet{
+      display: flex;
+      width: 90%;
+    }      
+  }
 
   .block {
     display: flex;
     flex-direction: column;
-    background: @main-bg;
+    background: linear-gradient(@main-bg,@purple-haze);
     padding: 15px;
+    border: 1px solid @purple-haze;
+    border-radius: 5px;
     margin: 15px auto;
     width: 90%;
 
@@ -96,22 +112,25 @@ body {
   .intro-buttons {
     display: flex;
     align-items: flex-end;
+    flex-wrap: wrap;
     width: 90%;
     margin: 0 auto;
 
     .block {
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
-      background: @main-bg;
+      justify-content: space-evenly;
+      background: linear-gradient(rgba(13, 2, 33, 0.75),rgba(84, 13, 110, 0.74));
       padding: 5px;
       margin: 15px auto;
       width: 33%;
       min-height: 175px;
       @media @tablet {
         width: 85%;
-        border: 1px solid @baby-blue;
+        border: 1px solid @purple-haze;
+        border-radius: 5px;
         margin: 5px auto;
+        min-height: 75px;
       }
       @media @mobile {
         width: 90%;
@@ -119,7 +138,6 @@ body {
 
       .inner-text {
         text-align: center;
-        margin-bottom: 15px;
 
         p {
           padding-bottom: 10px;
@@ -142,8 +160,10 @@ body {
   display: flex;
   justify-content: space-between;
   display: flex;
-  background: @main-bg;
+  background: linear-gradient(@main-bg,@purple-haze);
   padding: 15px;
+  border: 1px solid @purple-haze;
+  border-radius: 5px;
   margin: 15px auto;
   width: 90%;
 
@@ -159,13 +179,18 @@ body {
 }
 
 .button {
-  margin: 35px auto;
+  margin: 15px auto;
   background: @button-bg;
   color: @button-font;
   padding: 10px;
   border: none;
+  border-radius: 15px;
   font-size: 1.4rem;
   font-weight: bold;
+  @media @tablet{
+    margin: 5px auto;
+    padding: 2px;
+  }
 
   &:hover {
     background: @footer-bg;
