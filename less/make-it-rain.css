@@ -412,11 +412,6 @@ body {
   align-items: center;
   flex-direction: column;
 }
-@media (max-width: 500px) {
-  body {
-    max-width: 500px;
-  }
-}
 .home {
   margin: 0 auto;
 }
