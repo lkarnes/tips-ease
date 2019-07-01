@@ -427,7 +427,13 @@ body {
   background-image: url('../images/stars-bg.jpeg');
   background-size: 100%;
   background-repeat: no-repeat;
-  margin: 15px auto;
+  margin: 5px auto;
+  min-height: 610px;
+}
+@media (max-width: 940px) {
+  .home .intro-container {
+    min-height: 0px;
+  }
 }
 @media (max-width: 800px) {
   .home .intro-container {
@@ -436,25 +442,31 @@ body {
 }
 .home .intro-container .intro-item {
   width: 45%;
+  height: 125px;
+  margin-top: 125px;
   text-align: center;
+  background: linear-gradient(rgba(13, 2, 33, 0.75), rgba(84, 13, 110, 0.74));
+  border: 1px solid #540D6E;
+  border-radius: 5px;
 }
 @media (max-width: 800px) {
   .home .intro-container .intro-item {
     width: 90%;
-    background-image: url('../images/stars-bg.jpeg');
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 300px;
+    border: 1px solid #540D6E;
+    border-radius: 5px;
+    margin: 10px auto;
+    padding: 5px;
+    height: auto;
   }
 }
 @media (max-width: 500px) {
   .home .intro-container .intro-item {
     width: 90%;
-    height: 150px;
   }
 }
 .home .intro-container .intro-item p {
   font-size: 4rem;
+  line-height: 1;
 }
 @media (max-width: 2000px) {
   .home .intro-container .intro-item p {
@@ -464,6 +476,7 @@ body {
 @media (max-width: 800px) {
   .home .intro-container .intro-item p {
     font-size: 1.6rem;
+    background: rgba(13, 2, 33, 0.75);
   }
 }
 @media (max-width: 500px) {
@@ -482,7 +495,7 @@ body {
   .home .intro-container .intro-item h2,
   .home .intro-container .intro-item h3,
   .home .intro-container .intro-item h4 {
-    font-size: 6.5rem;
+    font-size: 7rem;
   }
 }
 @media (max-width: 800px) {
@@ -491,6 +504,7 @@ body {
   .home .intro-container .intro-item h3,
   .home .intro-container .intro-item h4 {
     font-size: 3rem;
+    background: rgba(13, 2, 33, 0.75);
   }
 }
 @media (max-width: 500px) {
@@ -504,11 +518,22 @@ body {
 .home .hidden {
   display: none;
 }
+.home .tablet-photo {
+  display: none;
+}
+@media (max-width: 800px) {
+  .home .tablet-photo {
+    display: flex;
+    width: 90%;
+  }
+}
 .home .block {
   display: flex;
   flex-direction: column;
-  background: #261447;
+  background: linear-gradient(#261447, #540D6E);
   padding: 15px;
+  border: 1px solid #540D6E;
+  border-radius: 5px;
   margin: 15px auto;
   width: 90%;
 }
@@ -517,57 +542,61 @@ body {
   text-align: center;
   padding-bottom: 20px;
 }
-.home .content {
+.home .intro-buttons {
   display: flex;
   align-items: flex-end;
+  flex-wrap: wrap;
   width: 90%;
   margin: 0 auto;
 }
-.home .content .block {
+.home .intro-buttons .block {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  background: #261447;
+  justify-content: space-evenly;
+  background: linear-gradient(rgba(13, 2, 33, 0.75), rgba(84, 13, 110, 0.74));
   padding: 5px;
   margin: 15px auto;
   width: 33%;
   min-height: 175px;
 }
 @media (max-width: 800px) {
-  .home .content .block {
+  .home .intro-buttons .block {
     width: 85%;
-    border: 1px solid #2DE2E6;
+    border: 1px solid #540D6E;
+    border-radius: 5px;
     margin: 5px auto;
+    min-height: 75px;
   }
 }
 @media (max-width: 500px) {
-  .home .content .block {
+  .home .intro-buttons .block {
     width: 90%;
   }
 }
-.home .content .block .inner-text {
+.home .intro-buttons .block .inner-text {
   text-align: center;
-  margin-bottom: 15px;
 }
-.home .content .block .inner-text p {
+.home .intro-buttons .block .inner-text p {
   padding-bottom: 10px;
   text-align: left;
 }
 @media (max-width: 1200px) {
-  .home .content .block .inner-text p {
+  .home .intro-buttons .block .inner-text p {
     font-size: 1.4rem;
   }
 }
-.home .content .block h2,
-.home .content .block h3 {
+.home .intro-buttons .block h2,
+.home .intro-buttons .block h3 {
   text-align: center;
-  padding-bottom: 10px;
+  padding-bottom: 0px;
 }
 .img-block {
   justify-content: space-between;
   display: flex;
-  background: #261447;
+  background: linear-gradient(#261447, #540D6E);
   padding: 15px;
+  border: 1px solid #540D6E;
+  border-radius: 5px;
   margin: 15px auto;
   width: 90%;
 }
@@ -580,13 +609,20 @@ body {
   margin: 0 auto;
 }
 .button {
-  margin: 35px auto;
+  margin: 15px auto;
   background: #FF6C11;
   color: #261447;
   padding: 10px;
   border: none;
+  border-radius: 15px;
   font-size: 1.4rem;
   font-weight: bold;
+}
+@media (max-width: 800px) {
+  .button {
+    margin: 5px auto;
+    padding: 2px;
+  }
 }
 .button:hover {
   background: #540D6E;
