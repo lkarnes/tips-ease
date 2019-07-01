@@ -611,13 +611,13 @@ body {
   font-size: 8rem;
   color: #FF4365;
   width: 60%;
-  margin: 0px 200px 0px 400px;
+  margin: 200px 200px 0px 400px;
 }
 @media (max-width: 800px) {
   #intro-section-container .inner-text-content .inner-text-content-header {
     font-size: 35px;
     width: 55%;
-    margin: 75px 400px 450px 450px;
+    margin: 75px 50px 20px 100px;
   }
 }
 @media (max-width: 500px) {
@@ -625,14 +625,14 @@ body {
     font-size: 35px;
     width: 55%;
     height: 1%;
-    margin: 75px 400px 400px 475px;
+    margin: 20px 50px 10px 100px;
   }
 }
 #intro-section-container .inner-text-content button {
   font-size: 10rem;
   background: #FF6C11;
   color: #261447;
-  margin: 50px 100px 1500px 250px;
+  margin: 50px 100px 100px 250px;
   border: none;
   font-weight: bold;
 }
@@ -643,18 +643,25 @@ body {
   #intro-section-container .inner-text-content button {
     font-size: 35px;
     width: 55%;
-    margin: 0px 400px 450px 450px;
+    margin: 0px 400px 30px 450px;
   }
 }
 @media (max-width: 500px) {
   #intro-section-container .inner-text-content button {
     font-size: 35px;
     width: 55%;
-    margin: 0px 400px 450px 450px;
+    margin: 0px 400px 50px 450px;
   }
 }
 .block {
-  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  height: auto;
+  width: 70%;
+  opacity: 0.8;
+  margin-bottom: 90%;
 }
 .block .server-life-info {
   margin: 1%;
@@ -662,4 +669,14 @@ body {
 .block h3 {
   color: #FF6C11;
   margin: 1%;
+}
+@media (max-width: 800px) {
+  .block {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .block {
+    width: 100%;
+  }
 }
