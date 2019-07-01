@@ -1,3 +1,5 @@
+
+
 @import 'reset.less';
 @import 'variables.less';
 @import 'global.less';
@@ -7,13 +9,13 @@
 @import 'home.less';
 
 
-#intro-section-container {
+.intro-section-container {
   width: 100%;
   height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("../images/robo-waiter2.jpg");
+  background-image: url("../images/synthwave money 2.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center center;
@@ -26,39 +28,49 @@
     height: auto;
     width: 100%;
 
+    #guac-box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: black;
+      width: 70%;
+      opacity: 0.8;
 
-    .inner-text-content-header {
-      text-align: center;
-      font-size: 8rem;
-      color: @light-red;
-      width: 60%;
-      margin: 0px 200px 0px 400px;
+      .inner-text-content-header {
+        text-align: center;
+        font-size: 8rem;
+        color: @light-red;
+        width: 100%;
+        margin: 0px 200px 0px 400px;
 
-      @media @tablet {
-        font-size: 35px;
-        width: 55%;
-        margin: 75px 400px 450px 450px;
+        @media @tablet {
+          font-size: 35px;
+          width: 55%;
+          margin: 75px 400px 450px 450px;
+        }
+
+        @media @mobile {
+          font-size: 35px;
+          width: 55%;
+          height: 1%;
+          margin: 75px 400px 400px 475px;
+        }
+
       }
-
-      @media @mobile {
-        font-size: 35px;
-        width: 55%;
-        height: 1%;
-        margin: 75px 400px 400px 475px;
-      }
-
     }
 
-    button {
+
+    #get-that-guac-button {
       font-size: 10rem;
       background: @button-bg;
-      color: @button-font;
+      color: green;
       margin: 50px 100px 1500px 250px;
       border: none;
       font-weight: bold;
 
       &:hover {
-        background: @footer-bg;
+        background: green;
+        color: @sun-rays;
       }
 
       @media @tablet {
@@ -73,6 +85,7 @@
         margin: 0px 400px 450px 450px;
       }
     }
+
   }
 }
 
@@ -89,6 +102,10 @@
     margin: 1%;
   }
 }
+
+
+
+
 
 
 
